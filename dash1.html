@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he">
 <head>
   <meta charset="UTF-8">
-  <title>Dashboard 1 – Sales by Geography</title>
+  <title>Sales by Geography</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #1b1f3b;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+    }
+    .nav {
+      background-color: #00bcd4;
+      padding: 12px;
+    }
+    .nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav a:hover {
+      text-decoration: underline;
+    }
+    iframe {
+      margin-top: 20px;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Sales by Geography</h1>
+  <div class="nav">
+    <a href="index.html">חזרה לדף הראשי</a>
+    <a href="dash2.html">Sales by Platform</a>
+    <a href="dash3.html">Coming Soon</a>
+  </div>
 
-  <!-- Tableau Public Embed -->
+  <h1>Sales by Geography</h1>
   <iframe
-    src="https://public.tableau.com/app/profile/itay.is4048/viz/Dashboard-SalesByGeography/DashboardSalesbyGeography?publish=yes "
+    src="https://public.tableau.com/app/profile/itay.is4048/viz/Dashboard-SalesByGeography/DashboardSalesbyGeography?publish=yes"
     width="1000"
     height="800"
-    frameborder="0"
     allowfullscreen>
   </iframe>
 </body>
